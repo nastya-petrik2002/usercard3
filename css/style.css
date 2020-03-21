@@ -1,0 +1,51 @@
+body{
+    background-color: #9999ff;
+    padding-top: 50px;
+}
+body > * {
+    margin: 0 auto;
+}
+.cardContainer > * {
+    margin: 0 auto;
+}
+.cardContainer{
+    width: 320px;
+    height: 200px;
+    background-color: rgba(41,255,99,0.6);
+    border-radius: 7px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.infoText{
+    padding-left: 30px;
+    color: white;
+}
+.infoText > h4 {
+    padding-top: 15px;
+}
+.infoText > h2 {
+    margin-top: -10px;
+}
+.infoText > h5{
+   margin-top: 35px;
+}
+#circle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.3);
+    position: absolute;
+    right: -100px;
+    top: -50px;
+}
+#circle2{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.3);
+    position: absolute;
+    right: -20px;
+    bottom: -100px;
+
+}
